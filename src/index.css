@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&family=Inter:wght@500&family=Montserrat:wght@400;700&family=Noto+Nastaliq+Urdu&family=Roboto+Flex:wght@200&family=Russo+One&display=swap');
+.theme-container {
+  @apply max-w-2xl mx-auto
+}
+
+.red-outline {
+  color: white;
+  -webkit-text-stroke: 0.025rem red;
+}
+.border-red-glow{
+  border: 1px solid #EB1C24;
+  box-shadow: 2px 2px 3px 0px rgba(235,28,36,0.66);
+-webkit-box-shadow: 2px 2px 3px 0px rgba(235,28,36,0.66);
+-moz-box-shadow: 2px 2px 3px 0px rgba(235,28,36,0.66);
+}
+.font-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+.text-yellow-glow{
+  font-weight: bold;
+  color: #FFCB05;
+  text-shadow: 1px 1px 7px rgba(255,203,5,0.6);
+  /* text-shadow: rgba(255,162,0,0.9) 0px 0px 39px; */
+}
